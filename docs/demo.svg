@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="572" viewBox="0 0 900 572" role="img" aria-label="Webmancer — demo">
+  <style>
+    text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace;font-size:15px}
+    .l{opacity:0}
+    .ty{clip-path:inset(0 100% 0 0)}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes show{to{opacity:1}}
+    @keyframes type{to{clip-path:inset(0 0 0 0)}}
+    @keyframes blink{50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){.l{opacity:1;animation:none!important}.ty{clip-path:none;animation:none!important}}
+  </style>
+  <rect width="900" height="572" rx="14" fill="#0d1117"/>
+  <rect x=".5" y=".5" width="899" height="572" rx="14" fill="none" stroke="#30363d"/>
+  <rect width="900" height="40" rx="14" fill="#161b22"/><rect y="26" width="900" height="14" fill="#161b22"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f57"/><circle cx="44" cy="20" r="6" fill="#febc2e"/><circle cx="64" cy="20" r="6" fill="#28c840"/>
+  <text x="450" y="25" text-anchor="middle" fill="#8b949e" style="font-size:13px">Webmancer — demo</text>
+<text x="28" y="74" class="l" style="animation:show .01s 0.60s forwards"><tspan fill="#22d3ee">❯</tspan></text><text x="50" y="74" class="l ty" style="animation:show .01s 0.60s forwards,type 0.50s steps(11) 0.60s forwards" fill="#e5e7eb">npm run dev</text>
+<text x="50" y="100" class="l" style="animation:show .01s 1.40s forwards" fill="#94a3b8">Local: http://localhost:3000</text>
+<text x="50" y="126" class="l" style="animation:show .01s 1.62s forwards" fill="#94a3b8">Glass UI ready with frosted panels and spring animations</text>
+<text x="28" y="178" class="l" style="animation:show .01s 2.19s forwards"><tspan fill="#22d3ee">❯</tspan></text><text x="50" y="178" class="l ty" style="animation:show .01s 2.19s forwards,type 2.20s steps(50) 2.19s forwards" fill="#e5e7eb">Extract latest HN posts about Rust and save as CSV</text>
+<text x="50" y="204" class="l" style="animation:show .01s 4.69s forwards" fill="#94a3b8">Ollama llama3.1 running…</text>
+<text x="50" y="230" class="l" style="animation:show .01s 4.91s forwards" fill="#94a3b8">Generated 68-line script with robust pagination</text>
+<text x="50" y="256" class="l" style="animation:show .01s 5.13s forwards" fill="#94a3b8">Simulation shows: visit news.ycombinator.com → filter → parse → CSV download</text>
+<text x="28" y="308" class="l" style="animation:show .01s 5.70s forwards"><tspan fill="#22d3ee">❯</tspan></text><text x="50" y="308" class="l ty" style="animation:show .01s 5.70s forwards,type 1.80s steps(40) 5.70s forwards" fill="#e5e7eb">Refine: run headless and add retry logic</text>
+<text x="50" y="334" class="l" style="animation:show .01s 7.80s forwards" fill="#94a3b8">Script updated with context.browser({ headless: true })</text>
+<text x="50" y="360" class="l" style="animation:show .01s 8.02s forwards" fill="#94a3b8">Added exponential backoff on network errors</text>
+<text x="50" y="386" class="l" style="animation:show .01s 8.24s forwards" fill="#94a3b8">New simulation preview rendered</text>
+<text x="28" y="438" class="l" style="animation:show .01s 8.81s forwards"><tspan fill="#22d3ee">❯</tspan></text><text x="50" y="438" class="l ty" style="animation:show .01s 8.81s forwards,type 0.77s steps(17) 8.81s forwards" fill="#e5e7eb">Copy &amp; run script</text>
+<text x="50" y="464" class="l" style="animation:show .01s 9.88s forwards" fill="#94a3b8">Script copied to clipboard</text>
+<text x="50" y="490" class="l" style="animation:show .01s 10.10s forwards" fill="#94a3b8">npx playwright test automation.spec.ts → 12s execution, CSV created</text>
+<g class="l" style="animation:show .01s 10.67s forwards"><text x="28" y="542" fill="#22d3ee">❯</text><rect class="cur" x="50" y="527" width="10" height="18" fill="#e5e7eb"/></g>
+</svg>
